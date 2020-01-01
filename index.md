@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## WS is **
 
 You can use the [editor on GitHub](https://github.com/666ZJQ/WSweb/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
