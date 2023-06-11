@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <style>
+    .custom-alert {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div id="customAlert" class="custom-alert">
+    <p>点击查看今日幸运数字！</p>
+  </div>
+
+  <script>
+    // 播放音频
+    function playAudio() {
+      var audio = new Audio('cyf.mp3'); 
+      audio.play();
+    }
+
+    // 自定义弹窗组件
+    var customAlert = document.getElementById('customAlert');
+    customAlert.addEventListener('click', function() {
+      customAlert.style.display = 'none'; // 隐藏弹窗
+      playAudio(); // 播放音频
+    });
+
+    // 显示弹窗
+    customAlert.style.display = 'block';
+  </script>
+</body>
+</html>
