@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>TEST</title>
+
+</head>
+
+<body>
+  <script>
+
+    // 播放音频
+
+    function playAudio() {
+
+      var audio = new Audio('audio_file.mp3'); 
+
+      audio.play();
+
+    }
+
+    // 在页面加载完成时执行
+
+    window.onload = function() {
+
+      // 在页面上触发点击事件，播放音频
+
+      document.body.click();
+
+      
+
+      // 每隔一秒弹出一个窗口
+
+      setInterval(function() {
+
+        alert('陈宇飞！');
+
+      });
+
+    };
+
+    </script>
+</body>
+</html>
